@@ -1,0 +1,103 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } */
+  
+  form {
+    text-align: center;
+  }
+  
+  .submit-button {
+    background-color: rgb(134, 138, 139); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #29d3e6; /* Darker green on hover */
+  }
+  /* ตกแต่งช่องกรอก email */
+input[type="email"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ตกแต่งช่องกรอก name */
+input[type="text"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อโฟกัส */
+input:focus {
+  outline: none; /* ลบเส้นขอบ (outline) ที่ปกติขึ้นเมื่อโฟกัส */
+  border-color: #007bff; /* สีขอบเมื่อโฟกัส */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* เพิ่มเอฟเฟกต์เงาเมื่อโฟกัส */
+}
+/* ให้แสดงเป็นแนวตั้ง (vertical) */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ตกแต่งช่องกรอก email */
+input[type="email"], input[type="text"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* ทำให้ช่องกรอกเต็มความกว้างของพื้นที่ที่ให้มอบ */
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อโฟกัส */
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+/* ให้แสดงเป็นแนวตั้ง (vertical) */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ตกแต่งช่องกรอก email และ name */
+input[type="email"], input[type="text"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* ทำให้ช่องกรอกเต็มความกว้างของพื้นที่ที่ให้มอบ */
+  box-sizing: border-box; /* ทำให้ padding และ border ไม่เพิ่มขนาดของช่องกรอก */
+  max-width: 400px; /* กำหนดขนาดสูงสุดของช่องกรอก */
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อโฟกัส */
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.krub{
+  position: absolute;
+  top: 0;
+}
